@@ -1,0 +1,7 @@
+curl http://localhost:5000/users
+curl http://localhost:5000/users /
+    -X POST \
+    -H "Content-Type: application/json" \
+    -d '{"firstname":"Дмитрий", "lastname":"Кас","email":"dim@yand.ru","age":38,"job":"work"}
+
+("id", "firstname", "lastname","email","age","job")
