@@ -11,7 +11,7 @@ class TaskAdmin(admin.ModelAdmin):
 
 
 @admin.register(User)
-class TaskAdmin(admin.ModelAdmin):
+class UserAdmin(admin.ModelAdmin):
     list_display = ('firstname', 'lastname', 'email', 'age', 'job',)
     list_filter = ('age',)
     search_fields = ('firstname',)
